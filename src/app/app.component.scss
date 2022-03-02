@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  block-size: 100%;
+}
+
+mat-drawer {
+  inline-size: 260px;
+}
+mat-drawer-container {
+  block-size: 100%;
+}
+
+mat-drawer {
+  background: #0f172a;
+}

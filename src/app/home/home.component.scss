@@ -1,0 +1,24 @@
+.page {
+  color: white;
+  padding: 0 1rem;
+  background: #f1f5f9;
+  &__box {
+    min-block-size: 90px;
+    background: #2b67c9;
+    margin: 0 -1rem;
+    font-size: 20px;
+  }
+  &__content {
+    min-block-size: calc(100vh - 178px);
+    border-radius: 10px;
+    margin-block-start: -2rem;
+    background: white;
+    color: black;
+    font-size: 2rem;
+    &-data {
+      inset-block-start: 50%;
+      inset-inline-start: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
